@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q22*lpb7o9o&^#_4h$@sw&$i44ekxm%-_z+8ow5%^-a@ld^*d9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["54.180.245.26"]
 
 
 # Application definition
@@ -99,7 +99,7 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
+ 
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
