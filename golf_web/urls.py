@@ -18,6 +18,7 @@ from django.urls import path
 from main import views as main_views
 
 urlpatterns = [
+    path('get_video/<str:video_name>/', main_views.get_video, name='get_video'),
     path('', main_views.index, name="index"),
     path('admin/', admin.site.urls),
 ]

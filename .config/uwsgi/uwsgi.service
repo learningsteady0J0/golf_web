@@ -3,7 +3,7 @@ Description=uWSGI service
 After=syslog.target
 
 [Service]
-ExecStart=/srv/django/bin/uwsgi -i /srv/golf_web/.config/uwsgi/mysite.ini
+ExecStart=/home/ubuntu/myvenv/bin/uwsgi -i /srv/golf_web/.config/uwsgi/mysite.ini
 
 Restart=always
 KillSignal=SIGQUIT
